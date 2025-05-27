@@ -20,7 +20,7 @@ Below is a list of the functions in this folder, along with brief descriptions o
 
 - main.m: Initializes and explains all parameters. From here, you can run both AB and PDE simulations. Simulation data is saved upon completion and also visualized during the simulation. The script also includes code for replaying saved simulations.
 
-AB simulations*
+*AB simulations*
 - AB_radial.m:      Simulates the agent-based equations (Eqs. 7–8) to reproduce Figs. 3, 4(a–b), S1, S3. This case considers a circular goal region centered at the origin.
 - AB_rectangular:   Simulates the agent-based equations (Eqs. 7–8, S2, S38, S41) to reproduce Figs. 5(i–j), S2. This case involves a rectangular goal region, where the objective is to either collect or expel the targets.
 - AB_static_patterns: Simulates the agent-based equations (Eqs. 7–8, S43) to reproduce Fig. 5(k). In this case, the goal is to gather the targets into multiple equally spaced rectangular regions.
@@ -42,3 +42,6 @@ The other functions in the folder are "auxiliary" functions needed to complete t
 -minimum_image_distance.m: compute relative positions and distances considering the periodicity of the domain.
 -periodic.m: prepares an array of positions, defined in a periodic domain, for plotting
 -repulsion.m: computes the repulsion between two (sets of) agents
+
+[LAMA2025](https://arxiv.org/abs/2503.01112): A. Lama, M. di Bernardo, S. H. L. Klapp, "An interpretable continuum framework for decision-making: nonreciprocal field theory of the shepherding control problem",arXiv:2503.01112
+ (2025)
