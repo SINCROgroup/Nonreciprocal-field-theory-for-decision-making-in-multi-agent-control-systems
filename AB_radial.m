@@ -151,7 +151,7 @@ for it = 1:time_steps
             end
             for i=1:N
                 if sum(right,1)>1
-                    printf("error")
+                    sprintf("error")
                     return
                 end
             end
@@ -195,7 +195,7 @@ for it = 1:time_steps
         hold on
         scatter(periodic(T(:,1),x0,xf),periodic(T(:,2),x0,xf), MarkerFaceColor='magenta',SizeData=30)
         hold off
-        title(sprintf("%.1f",dt*it))
+        title(sf("%.1f",dt*it))
         xlim([x0,xf])
         ylim([y0,yf])
 
@@ -211,7 +211,7 @@ for it = 1:time_steps
 end
 
 
-filename=sprintf("%s/AB_radial_g%d_d%d",DirectoryName,round(gamma*10000),round(delta*10000));
+filename=sf("%s/AB_radial_g%d_d%d",DirectoryName,round(gamma*10000),round(delta*10000));
 save(filename,"H_save", "T_save","params","frame_spacing")
 
 end
