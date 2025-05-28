@@ -25,7 +25,8 @@ Below is a list of the functions in this folder, along with brief descriptions o
 - AB_rectangular:   Simulates the agent-based equations (Eqs. 7–8, S2, S38, S41) to reproduce Figs. 5(i–j), S2. This case involves a rectangular goal region, where the objective is to either collect or expel the targets.
 - AB_static_patterns: Simulates the agent-based equations (Eqs. 7–8, S43) to reproduce Fig. 5(k). In this case, the goal is to gather the targets into multiple equally spaced rectangular regions.
 - AB_travelling_patterns: Simulates the agent-based equations (Eq. S45) to reproduce Fig. 5(l). The goal is to create a traveling wave state in which the herders push the targets along the periodic domain.
-All the above code employ a Euler-Maruyama scheme.
+
+All the above code employ a Euler-Maruyama scheme to integrate the equations.
 
 *PDEs simulations*
 - PDE_simulation:  Simulates the PDEs describing the shepherding dynamics. From main.m, you can set the type of dynamics via the input variable type, which determines the forms of the coupling functions v1(x) and v2(x) (see [LAMA2025], Eqs (3-4)). The available types are:
