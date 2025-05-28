@@ -169,7 +169,7 @@ for it = 1:time_steps
                 end
                 for i=1:N
                     if sum(right,1)>1
-                        printf("error")
+                        sprintf("error")
                         return
                     end
                 end
