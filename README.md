@@ -1,10 +1,12 @@
 # Nonreciprocal-field-theory-for-decision-making-in-multi-agent-control-systems
 ####################################################
+
 ## License
 
-This project is licensed under the [Creative Commons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/).
+This project is licensed under the [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.en.html).
 
-You are free to share and adapt the material, as long as you give appropriate credit and do not use it for commercial purposes.
+You are free to use, modify, and distribute this code, even for commercial purposes, as long as you distribute your contributions under the same license and disclose the source.
+
 ######################################################
 
 This folder contains the code used to generate the data for the results presented in [LAMA2025]. All code is written in MATLAB, version 2022A.
